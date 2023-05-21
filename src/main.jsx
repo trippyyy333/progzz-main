@@ -1,11 +1,13 @@
-import runtime from './runtime.js'
-import React from 'react'
+import runtime from './react-refresh/runtime'
+import React from '../react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <div>dsfsdf</div>
+
     <App />
   </React.StrictMode>,
 )
