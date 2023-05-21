@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
-import { styles } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/styles.js";
+import { styles } from "../styles";
 import { EarthCanvas } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d/src/components/canvas";
 import { SectionWrapper } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d/src/hoc";
 import { slideIn } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/utils/motion.js";
