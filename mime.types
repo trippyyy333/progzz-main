@@ -1,0 +1,5 @@
+include mime.types;
+types {
+    # here are additional types
+    application/javascript mjs;
+}
