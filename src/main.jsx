@@ -1,5 +1,5 @@
-import runtime from './react-refresh/runtime'
-import React from '../react'
+import {runtime} from './react-refresh/runtime.js'
+import {React} from '../react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
