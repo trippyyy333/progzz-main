@@ -34,11 +34,10 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        {/* <div className='bg-greenish1'> */}
+        <div className='bg-about3-pattern'>
 
         <About />
-        {/* </div> */}
-
+        </div>
         <div className='bg-greenish1'>
 
         <Experience />
