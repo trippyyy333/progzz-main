@@ -47,7 +47,7 @@ module.exports = {
         // "hero-pattern": "url('/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/assets/v.jpg')",
         "about-pattern" : "url('https://images.unsplash.com/photo-1598040795256-03d22d952f4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80') " ,
         
-        "hero-pattern": "url('/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/assets/2.jpg')",
+        "hero-pattern": "url('./assets/2.jpg')",
         // "hero-pattern": "url('/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/assets/d.gif')",
       },
     },
