@@ -2,10 +2,12 @@ import React from "react";
 import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
-import { styles } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/styles.js";
-import { services } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/constants";
-import { SectionWrapper } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/hoc";
-import { fadeIn, textVariant } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/utils/motion.js";
+import { SectionWrapper } from "../hoc";
+import { fadeIn, textVariant } from "../utils/motion";
+
+
+import { styles } from "../styles.js";
+import { services } from "../constants";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>

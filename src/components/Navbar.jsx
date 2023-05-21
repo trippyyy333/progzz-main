@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { styles } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/styles.js";
-import { navLinks } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/constants";
-import { logo, menu, close } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/assets";
+import { styles } from "../styles.js";
+import { navLinks } from "../constants";
+import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");

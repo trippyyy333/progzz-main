@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
-import { styles } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/styles.js";
-import { ComputersCanvas } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/components/canvas";
+import { styles } from "../styles.js";
+import { ComputersCanvas } from "../components/canvas";
 import { useState, useEffect } from "react";
 import TrackVisibility from 'react-on-screen';
 import { ArrowRightCircle } from 'react-bootstrap-icons';

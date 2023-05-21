@@ -25,9 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import saarhanlogo from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/assets/company/sarhanlogo.jpg";
-import javascriptt from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/assets/company/javascript.png";
-import pythonlogo from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/assets/company/Pythonlogo.png";
+import saarhanlogo from "./company/sarhanlogo.jpg";
+import javascriptt from "./company/javascript.png";
+import pythonlogo from "./company/Pythonlogo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";

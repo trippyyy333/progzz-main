@@ -7,10 +7,12 @@ import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { styles } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/styles.js";
-import { experiences } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/constants";
-import { SectionWrapper } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d/src/hoc";
-import { textVariant } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/utils/motion.js";
+import { experiences } from "../constants";
+import { textVariant } from "../utils/motion";
+
+import { styles } from "../styles";
+import { SectionWrapper } from "../hoc";
+
 
 const ExperienceCard = ({ experience }) => {
   return (

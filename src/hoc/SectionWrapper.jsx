@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
-import { styles } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/styles.js";
-import { staggerContainer } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/utils/motion.js";
+import { styles } from "../styles.js";
+import { staggerContainer } from "../utils/motion.js";
 
 const StarWrapper = (Component, idName) =>
   function HOC() {

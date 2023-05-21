@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d/src/components/canvas";
-import { SectionWrapper } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d/src/hoc";
-import { slideIn } from "/home/q/Downloads/progz2/notscholing/Django-Auth-And-Perms-main/web3d_2/src/utils/motion.js";
+import { EarthCanvas } from "../components/canvas";
+import { SectionWrapper } from "../hoc";
+import { slideIn } from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();

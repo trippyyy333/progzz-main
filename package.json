@@ -2,8 +2,7 @@
   "name": "web3d_2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://trippyyy333.github.io/progzz-main/", 
-
+  "homepage": "https://trippyyy333.github.io/progzz-main/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -19,7 +18,8 @@
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
     "react-on-screen": "^2.1.1",
-    "react-tilt": "^1.0.2"
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
